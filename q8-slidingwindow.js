@@ -13,7 +13,7 @@ function maxSumSubarray(arr,k){
  }
  let mexSum = sum ;
  for(let i = k; i<arr.length;i++){
-  sum = sum +arr[i] -arr[i-k];
+  sum = sum +arr[i] - arr[i-k];
   if(sum>mexSum){
     mexSum = sum;
    }
