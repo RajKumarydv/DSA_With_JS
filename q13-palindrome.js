@@ -14,5 +14,4 @@ console.log(isPalindrome("racecar")); // true
 console.log(isPalindrome("hello")); // false
 console.log(isPalindrome("madam")); // true
 console.log(isPalindrome("step on no pets")); // true
-console.log(isPalindrome("JavaScript")); // false
-console.log(isPalindrome("A man a plan a canal Panama")); // false
+console.log(isPalindrome("JavaScript")); // fal
