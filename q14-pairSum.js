@@ -4,7 +4,7 @@ function pairSum(arr, target){
   while(left<right){
     let sum = arr[left] + arr[right];
     if(sum === target){
-      return [left, right] , true;
+      return true;
     }
     else if(sum < target){
       left++;
